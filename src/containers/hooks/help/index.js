@@ -1,10 +1,10 @@
 import { connect } from 'react-redux';
-import Help from '~/components/help';
+import Help from '~/components/hooks/help';
 
 function mapStateToProps(state, ownProps) {
   return {
     location: ownProps.location,
-    helpEnabled: state.getIn(['help', 'visible']),
+    helpEnabled: state.getIn(['hooks', 'visible']),
   };
 }
 

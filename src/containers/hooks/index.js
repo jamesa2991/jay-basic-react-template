@@ -4,7 +4,7 @@ import { toggleHelp } from '~/actions/state';
 
 function mapStateToProps(state) {
   return {
-    help: state.getIn(['help', 'visible'], false),
+    help: state.getIn(['hooks', 'visible'], false),
   };
 }
 

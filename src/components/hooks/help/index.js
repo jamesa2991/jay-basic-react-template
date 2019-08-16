@@ -15,4 +15,5 @@ export default function Help(props) {
 
 Help.propTypes = {
   location: propTypes.string,
+  helpEnabled: propTypes.bool,
 };

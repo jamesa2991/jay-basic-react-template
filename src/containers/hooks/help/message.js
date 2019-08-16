@@ -1,6 +1,6 @@
-import { TOOLTIP_MAP } from '~/constants/help';
 import { connect } from 'react-redux';
-import Message from '~/components/help/message';
+import { TOOLTIP_MAP } from '~/constants/hooks';
+import Message from '~/components/hooks/help/message';
 
 function mapStateToProps(state, ownProps) {
   return {

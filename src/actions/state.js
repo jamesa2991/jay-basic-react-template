@@ -1,4 +1,3 @@
-
 export const toggleHelp = () => ({
-  type: 'toggleHelp',
+  type: 'toggleHelpSpots',
 });

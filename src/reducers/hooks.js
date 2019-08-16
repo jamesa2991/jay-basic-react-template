@@ -1,13 +1,12 @@
 import { Map } from 'immutable';
 
-
 export const initialState = Map({
   visible: false,
 });
 
-export default function Help(state = initialState, action) {
+export default function Hooks(state = initialState, action) {
   switch (action.type) {
-    case 'toggleHelp':
+    case 'toggleHelpSpots':
       return state.set('visible', !state.get('visible'));
     default:
       return state;

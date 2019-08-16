@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Help from '~/containers/help/message';
+import Help from '~/containers/hooks/help/message';
 
 export default function useHelp(location) {
   const [isVisible, setVisible] = useState(false);

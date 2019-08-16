@@ -13,7 +13,6 @@ export default function Main(props) {
         </span>
       </div>
       <div className="main-content">
-        <h2> Hooks Test </h2>
         <Top />
         <Bottom />
       </div>

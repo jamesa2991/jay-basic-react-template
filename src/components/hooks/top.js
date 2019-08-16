@@ -1,6 +1,6 @@
 import React from 'react';
-import { TOP_LOCATION } from '~/constants/help';
-import Help from '~/containers/help';
+import { TOP_LOCATION } from '~/constants/hooks';
+import Help from '~/containers/hooks/help';
 
 export default function Top() {
   return (
