@@ -1,11 +1,21 @@
 import React from 'react';
-import './style/main.css';
+import { Provider } from 'react-redux';
+import Main from '~/containers/main';
+import store from '~/store';
+import '~/style/main.scss';
+
+window.DEBUG = {
+  getState: store.getState,
+  dispatch: store.dispatch,
+};
 
 function App() {
   return (
-    <div className="App">
-      <h1> Hello, World! </h1>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <Main />
+      </div>
+    </Provider>
   );
 }
 
