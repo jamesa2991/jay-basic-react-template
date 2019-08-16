@@ -1,0 +1,3 @@
+# ignore all dist and node modules
+/node_modules/*
+/dist/*
