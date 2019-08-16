@@ -1,8 +1,8 @@
 import { connect } from 'react-redux';
-import Main from '~/components/main';
+import Hooks from '~/components/hooks';
 import { toggleHelp } from '~/actions/state';
 
-function mapStateToProps(state, ownProps) {
+function mapStateToProps(state) {
   return {
     help: state.getIn(['help', 'visible'], false),
   };
@@ -19,4 +19,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Main);
+)(Hooks);

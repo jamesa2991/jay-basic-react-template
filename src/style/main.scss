@@ -1,7 +1,32 @@
-.App {
+@import './components/home';
+
+body {
+  margin: 0;
+}
+.jay-react {
+  height: 100vh;
   font-family: arial;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+
+  .top-header {
+    border: 1px solid #000;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .main-body {
+    display: flex;
+    flex: 1;
+
+    .menu-sidebar {
+      width: 200px;
+      border: 1px solid #000;
+    }
+  }
 
   .app-title {
     display: flex;
@@ -24,5 +49,4 @@
     display: flex;
     flex-direction: column;
   }
-
 }

@@ -1,13 +1,13 @@
 import React from 'react';
-import Top from '~/components/top';
-import Bottom from '~/components/bottom';
 import propTypes from 'prop-types';
+import Top from '~/components/hooks/top';
+import Bottom from '~/components/hooks/bottom';
 
 export default function Main(props) {
   return (
-    <div>
+    <div className="inner-content">
       <div className="app-title">
-        <h1> Welcome to Jay's Playground </h1>
+        <h1> Welcome to Jay&#39s Playground </h1>
         <span className="toggle-help" onClick={props.toggleHelp}>
           Help : {props.help ? 'On' : 'Off'}
         </span>

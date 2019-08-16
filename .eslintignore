@@ -1,5 +1,3 @@
-package.json
-src/style/
 babel.config.js
 prettier.config.js
 webpack.config.js
