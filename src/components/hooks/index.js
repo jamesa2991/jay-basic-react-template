@@ -7,7 +7,7 @@ export default function Main(props) {
   return (
     <div className="inner-content">
       <div className="app-title">
-        <h1> Welcome to Jay&#39s Playground </h1>
+        <h1> Hooks </h1>
         <span className="toggle-help" onClick={props.toggleHelp}>
           Help : {props.help ? 'On' : 'Off'}
         </span>
