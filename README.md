@@ -4,4 +4,5 @@ This is a space to just play with stuff, test new stuff and work on various bits
 
 # To Run
 
-<<TBC>>
+npm install
+npm start
