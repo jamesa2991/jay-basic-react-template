@@ -1,10 +1,11 @@
 import { connect } from 'react-redux';
 import Hooks from '~/components/hooks';
 import { toggleHelp } from '~/actions/state';
+import { getHelpSpotsVisible } from '~/getters/hooks';
 
 function mapStateToProps(state) {
   return {
-    help: state.getIn(['hooks', 'visible'], false),
+    help: getHelpSpotsVisible(state),
   };
 }
 

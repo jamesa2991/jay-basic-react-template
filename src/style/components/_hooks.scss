@@ -1,0 +1,31 @@
+.hooks-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+  .hooks-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .toggle-help {
+      margin-left: 15px;
+    }
+  }
+
+  .hooks-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .top-content,
+    .bottom-content {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+
+}

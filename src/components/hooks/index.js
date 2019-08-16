@@ -5,14 +5,14 @@ import Bottom from '~/components/hooks/bottom';
 
 export default function Main(props) {
   return (
-    <div className="inner-content">
-      <div className="app-title">
+    <div className="hooks-content">
+      <div className="hooks-title">
         <h1> Hooks </h1>
         <span className="toggle-help" onClick={props.toggleHelp}>
           Help : {props.help ? 'On' : 'Off'}
         </span>
       </div>
-      <div className="main-content">
+      <div className="hooks-content">
         <Top />
         <Bottom />
       </div>

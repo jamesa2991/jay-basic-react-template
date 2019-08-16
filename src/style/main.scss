@@ -1,9 +1,11 @@
 @import './components/home';
+@import './components/hooks';
 
 body {
   margin: 0;
 }
 .jay-react {
+  background: #eff0f1;
   height: 100vh;
   font-family: arial;
   display: flex;
@@ -11,11 +13,11 @@ body {
   flex-direction: column;
 
   .top-header {
-    border: 1px solid #000;
-    height: 75px;
+    min-height: 75px;
     margin: 0;
     padding: 0;
     text-align: center;
+    padding: 10px;
   }
 
   .main-body {
@@ -24,29 +26,15 @@ body {
 
     .menu-sidebar {
       min-width: 150px;
-      border: 1px solid #000;
+      padding: 10px;
     }
-  }
-
-  .app-title {
-    display: flex;
-    align-items: center;
-
-    .toggle-help {
-      margin-left: 15px;
-    }
-  }
-
-  .main-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .top-content,
-  .bottom-content {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
   }
 }
+
+//Replace this in with the XXV-content for new templates.
+//  .<title>-content {
+//    display: flex;
+//    width: 100%;
+//    flex-direction: column;
+//    align-items: center;
+//  }
