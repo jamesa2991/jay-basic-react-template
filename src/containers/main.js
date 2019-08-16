@@ -1,19 +1,12 @@
 import { connect } from 'react-redux';
 import Main from '~/components/main';
-import { toggleHelp } from '~/actions/state';
 
 function mapStateToProps(state, ownProps) {
-  return {
-    help: state.getIn(['help', 'visible'], false),
-  };
+  return {};
 }
 
 function mapDispatchToProps(dispatch) {
-  return {
-    toggleHelp: () => {
-      dispatch(toggleHelp());
-    },
-  };
+  return {};
 }
 
 export default connect(

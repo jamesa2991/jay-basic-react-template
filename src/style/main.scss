@@ -6,23 +6,12 @@
   .app-title {
     display: flex;
     align-items: center;
-
-    .toggle-help {
-      margin-left: 15px;
-    }
   }
 
   .main-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .top-content,
-  .bottom-content {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
   }
 
 }
