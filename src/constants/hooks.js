@@ -9,3 +9,6 @@ export const TOOLTIP_MAP = {
   [TOP_LOCATION]: TOP_MESSAGE,
   [BOTTOM_LOCATION]: BOTTOM_MESSAGE,
 };
+
+//Action types
+export const TOGGLE_HELP_SPOTS = 'TOGGLE_HELP_SPOTS';

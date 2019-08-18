@@ -12,6 +12,7 @@ import Header from '~/components/header';
 //Routed Components/Containers
 import Home from '~components/home';
 import Hooks from '~/containers/hooks';
+import Async from '~/containers/async';
 
 window.DEBUG = {
   getState: store.getState,
@@ -30,6 +31,7 @@ function App() {
             <SideBar />
             <Route path="/" exact component={Home} />
             <Route path="/hooks" component={Hooks} />
+            <Route path="/async" component={Async} />
           </div>
         </div>
       </Router>
