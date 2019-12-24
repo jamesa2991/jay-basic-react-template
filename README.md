@@ -6,3 +6,5 @@ This is a space to just play with stuff, test new stuff and work on various bits
 
 npm install
 npm start
+
+Then just go to localhost (currently) : localhost:3000
