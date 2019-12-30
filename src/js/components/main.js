@@ -5,10 +5,10 @@ export default function Main(props) {
   return (
     <div>
       <div className="app-title">
-        <h1> Welcome to Jay's Playground (New)</h1>
+        <h1> React Boilerplate </h1>
       </div>
       <div className="main-content">
-        <p> Main Content </p>
+        <p> To be edited </p>
       </div>
     </div>
   );
